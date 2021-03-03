@@ -1,0 +1,11 @@
+@mixin first {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    &:focus {
+        opacity: 0.7;
+        border: none;
+        outline: none;
+    }
+}

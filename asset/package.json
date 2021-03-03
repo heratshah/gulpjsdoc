@@ -1,0 +1,27 @@
+{
+    "name": "todolist_last",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/heratshah/todolist_last.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/heratshah/todolist_last/issues"
+    },
+    "homepage": "https://github.com/heratshah/todolist_last#readme",
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "jsdoc": "^3.6.6",
+        "node-sass": "^5.0.0"
+    }
+}

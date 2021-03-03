@@ -1,0 +1,136 @@
+.todo {
+  margin: 1% 10% 1% 10%;
+  padding: 25px;
+  box-shadow: 6px 7px 15px #ccc;
+  font-size: 14px; }
+  .todo__check-checkall {
+    width: 5%;
+    height: 20px; }
+  .todo__filter-checkall {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    width: 93%;
+    height: 3rem;
+    background-color: #f7f7f7;
+    color: #343a40; }
+    .todo__filter-checkall:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+  .todo__all-list {
+    margin-top: 1%; }
+  .todo__single-list {
+    transition: all 1s ease;
+    display: flex;
+    margin-top: 2vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    .todo__single-list:hover input {
+      border: none;
+      border-radius: 10px;
+      font-size: auto;
+      outline: none;
+      opacity: 0.6;
+      background-color: royalblue;
+      color: white; }
+      .todo__single-list:hover input:focus {
+        opacity: 0.7;
+        border: none;
+        outline: none; }
+    .todo__single-list_complated {
+      text-decoration: line-through;
+      color: red; }
+      .todo__single-list_complated input {
+        background-color: lightgray;
+        color: white; }
+    .todo__single-list_fall {
+      opacity: 0%;
+      transform: translate(10rem) rotateY(20deg); }
+  .todo__checkbox {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    margin-top: 18px;
+    width: 5%;
+    height: 20px; }
+    .todo__checkbox:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+  .todo__input {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    margin-left: 5%;
+    padding: 10px;
+    width: 60%;
+    background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #343a40; }
+    .todo__input:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+  .todo__edit-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    margin-left: 2%;
+    width: 5%;
+    background-color: white;
+    color: blue; }
+    .todo__edit-btn:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+    .todo__edit-btn:hover {
+      background-color: blue;
+      color: white; }
+  .todo__delete-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    margin-left: 2%;
+    width: 5%;
+    background-color: white;
+    color: red; }
+    .todo__delete-btn:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+    .todo__delete-btn:hover {
+      background-color: red;
+      color: white; }
+  .todo__complate-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: auto;
+    outline: none;
+    margin-left: 11%;
+    width: 5%;
+    background-color: white;
+    color: green; }
+    .todo__complate-btn:focus {
+      opacity: 0.7;
+      border: none;
+      outline: none; }
+    .todo__complate-btn:hover {
+      background-color: green;
+      color: white; }
+
+.form__bgimage {
+  background-image: url(/img/nav2.jpg); }
+
+.bg-cyan {
+  background-color: darkcyan; }
+
+* {
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%; }
